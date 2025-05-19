@@ -1,6 +1,7 @@
 import { Storage } from "@plasmohq/storage"
 
 import { biliFetch } from "~fetcher/bilibili"
+import { biliFetchForSpecial } from "~fetcher/bilibiliforspecial"
 import { dyFetch } from "~fetcher/douyu"
 import { hyFetch } from "~fetcher/huya"
 import { twitchFetch } from "~fetcher/twitch"
@@ -17,7 +18,7 @@ export const PLATFORM_CONFIGS: PlatformConfig[] = [
   {
     id: "bilibiliForSpecial",
     name: "哔哩哔哩-仅特殊关注",
-    fetchFn: biliFetch,
+    fetchFn: biliFetchForSpecial,
   },
   {
     id: "douyu",
