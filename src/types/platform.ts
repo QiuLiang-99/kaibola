@@ -2,7 +2,7 @@ export interface TwitchConfig {
   authToken: string
 }
 
-export type Platform = "bilibili" | "douyu" | "huya" | "twitch"
+export type Platform = "bilibili" | "bilibiliForSpecial" | "douyu" | "huya" | "twitch"
 
 export interface PlatformConfig {
   id: Platform

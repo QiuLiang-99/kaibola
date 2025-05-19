@@ -15,6 +15,11 @@ export const PLATFORM_CONFIGS: PlatformConfig[] = [
     fetchFn: biliFetch
   },
   {
+    id: "bilibiliForSpecial",
+    name: "哔哩哔哩-仅特殊关注",
+    fetchFn: biliFetch,
+  },
+  {
     id: "douyu",
     name: "斗鱼",
     fetchFn: dyFetch
